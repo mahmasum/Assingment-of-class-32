@@ -1,0 +1,126 @@
+body{
+    font-family: sans-serif;
+}
+.small-div{
+    width:600px;
+    height: 650px;
+    margin: auto;
+    border: 2px dotted black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    li{
+        list-style: none;
+        background: red;
+        border: 1px solid rgb(50, 11, 221);
+        text-align: center;
+
+    }
+}
+
+.div-1{
+    width:1024px;
+    height: 250px;
+    margin: auto;
+    border: 2px solid black;
+    margin-top: 50px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    
+    li{
+        list-style: none;
+        background: red;
+        border: 1px solid rgb(31, 47, 185);
+        text-align: center;
+
+
+    }
+}
+.div-2{
+    width:350px;
+    height: 300px;
+    margin: auto;
+    border: 2px solid black;
+    margin-top: 50px;
+    display: flex;
+    align-items: flex-start;
+    flex-flow: wrap;
+    align-content: flex-start;
+    
+    li{
+        list-style: none;
+        background: red;
+        border: 1px solid rgb(31, 47, 185);
+        text-align: center;
+
+
+    }
+}
+
+.div-3{
+    width:1024px;
+    height: 650px;
+    margin: auto;
+    border: 2px dotted black;
+    margin-top: 50px;
+    display: flex;
+    align-items: flex-start;
+   
+    
+    
+    
+    
+    li{
+        list-style: none;
+        background: red;
+        border: 1px solid rgb(31, 185, 82);
+        color: white;
+        flex-grow: 1;
+        
+        
+    }
+}
+.div-4{
+    width:1024px;
+    height: 650px;
+    margin: auto;
+    border: 2px dotted black;
+    margin-top: 50px;
+    display: flex;
+    align-items: flex-start;
+    #itm3{
+        align-self: flex-end;
+    }
+    .ittm4{
+        align-self: center;
+    }
+
+    li{
+        list-style: none;
+        background: red;
+        border: 1px solid rgb(31, 185, 82);
+        color: white;
+        flex-grow: 1;
+
+    }
+}
+
+
+
+.div-5{
+    width:1300px;
+    height: 650px;
+    margin: auto;
+    border: 2px dotted black;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    li{
+        list-style: none;
+        background: red;
+        border: 1px solid rgb(31, 185, 82);
+        color: rgb(12, 2, 2);
+        
+    }
+}
